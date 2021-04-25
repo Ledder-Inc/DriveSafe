@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DriveSafe</string>
+    <string name="user_name">Username</string>
+    <string name="button_speedometer">Tacho öffnen</string>
+    <string name="textView_speedometer">0 km/h</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Speedometer">
+
+    <LinearLayout
+        android:id="@+id/lLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="86dp">
+
+        <TextView
+            android:id="@+id/tvSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/textView_speedometer"
+            android:textSize="70sp" />
+
+        <ProgressBar
+            android:id="@+id/pbSpeed"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:indeterminate="false"
+            android:max="250"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
